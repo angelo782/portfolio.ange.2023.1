@@ -1,0 +1,44 @@
+body 
+{
+	margin:0;
+padding:0;
+background: url(image_de_fond.png) no-repeat center fixed;
+-webkit-background-size: cover; /* pour Chrome et Safari */
+-moz-background-size: cover; /* pour Firefox */
+-o-background-size: cover; /* pour Opera */
+background-size: cover; /* version standardisée */
+
+	background-color: black ;
+	text-align: center;
+
+}
+h1 
+{
+	color: white;
+	font-family: georgia;
+	font-size: 2em;
+}
+div 
+{
+	border: 2px solid lightblue;
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 26px;
+	padding: 15px 32px;
+
+}
+button
+{
+	width: 300px;
+	border: 2px solid black ;
+	border-radius: 26px;
+	background-color: blue;
+	height: 60px;
+}
+
+button:hover{
+	background-color:yellow;
+	color: black;
+    border:2px solid white ;
+}

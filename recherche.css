@@ -1,0 +1,29 @@
+body{
+margin:0;
+padding:0;
+background: url(image_de_fond.png) no-repeat center fixed;
+-webkit-background-size: cover; /* pour Chrome et Safari */
+-moz-background-size: cover; /* pour Firefox */
+-o-background-size: cover; /* pour Opera */
+background-size: cover; /* version standardisée */
+}
+
+h1
+{
+color: yellow;
+text-align: center;
+}
+h2
+{
+
+color: yellow;
+}
+div
+{
+	text-align: center;
+	color: white;
+}
+body
+{
+	color: aliceblue;
+}

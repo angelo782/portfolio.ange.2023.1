@@ -1,0 +1,54 @@
+body 
+{
+	background: rgb(255, 183, 2);
+}
+
+h1
+{
+	color: white;
+	text-align: center;
+}
+
+h2
+{
+	color: white;
+	text-align: center;
+}
+
+.cadrepp
+{
+	background: rgb(111, 231, 177);
+	border: 4px solid navy;
+}
+
+.cadre1
+{
+	background-color: aqua;
+	border: 4px solid #E5F30B;
+	text-align: center;
+	width: 60%;
+	height: 160px;
+	margin-left: 20%;
+	margin-right: 20%;
+
+}
+
+.cadre2
+{
+	background-color: aqua;
+	border: 4px solid #E5F30B;
+	text-align: center;
+	width: 60%;
+	height: 160px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 10%;
+}
+.p1
+{
+	color: black;
+}
+.p2
+{
+	color: black;
+}

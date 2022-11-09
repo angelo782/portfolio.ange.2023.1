@@ -1,0 +1,56 @@
+body
+{
+    background-color: rgb(26, 255, 0);
+}
+div
+{
+    border-radius: 30px;
+    height: 300px;
+    width: 350px;
+    border: 2px solid rgb(0, 110, 255);
+    float: left;
+    margin-right: 50px;
+}
+.c1
+{
+    background-color: brown;
+}
+.c3
+{
+    background-color: blue;
+}
+.c2
+{
+    background-color: aqua;
+}
+
+h1
+{
+    text-align: center;
+}
+.intro
+{
+    background-color: aqua;
+    height: 60px;
+    width: 350px;
+    border-radius: 30px;
+}
+.p
+{
+    text-align: center ;
+    height: 60%;
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 5%;
+    background-color: aqua;
+}
+.fin
+{
+    border-radius: 30px;
+    text-align: center ;
+    height: 60%;
+    width: 100%;
+    margin-top: 5%; 
+    background-color: aqua;
+
+}

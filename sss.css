@@ -1,0 +1,28 @@
+body
+{
+    background-color: hotpink;
+}
+div
+{
+    height: 300px;
+    width: 150px;
+    border: 2px solid yellow;
+    float: left;
+    margin-right: 20px;
+}
+.c1
+{
+    background-color: brown;
+}
+.c2
+{
+    background-color: blue;
+}
+.c3
+{
+    background-color: aqua;
+}
+.c4
+{
+    clear: both;
+}

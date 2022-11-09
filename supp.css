@@ -1,0 +1,55 @@
+body
+{
+margin:0;
+padding:0;
+background: url(/image_de_fond.png) no-repeat center fixed;
+-webkit-background-size: cover; /* pour Chrome et Safari */
+-moz-background-size: cover; /* pour Firefox */
+-o-background-size: cover; /* pour Opera */
+background-size: cover; /* version standardisée */
+ background-color: black;
+ text-align: center;
+}
+
+h1
+{
+ color: white;
+
+ font-family: red;
+ font-size: 2em;
+}
+button
+{
+	border: 2px solid black;
+	border-radius: 26px;
+	text-align: center;
+	padding: 15px 32px;
+	background-color:darkred ;
+	margin-top: 3px;
+	width: 300px;
+}
+div 
+{
+border:2px solid darkred;
+border-radius:26px ;
+margin-left: 35%;
+margin-right:35%;
+padding: 2%;
+width:30%;
+}
+button:hover{
+	color: darkred;
+	background-color: black;
+	border:2px solid black ;
+}
+
+input
+{
+	background-color: black;
+	color: red;
+	border: 2px solid red;
+	padding: 15px 32 px ;
+	text-align: center;
+	font-size: 1-px;
+	border-radius: 26px;
+}
