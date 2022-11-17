@@ -1,0 +1,31 @@
+body    
+{
+    background-color: hotpink;
+}
+ul li{
+    width: 200px;
+    height: 50px;
+    border: 2px solid #666;
+    background-color: aquamarine;
+    list-style: none ;
+    color: blue;
+    font-size: 18px;
+    padding-left: 10px;
+    line-height: 50px;
+}
+ul li:hover
+{
+    cursor: pointer;
+    width: 250px;
+    background-color: #666
+    color:red;
+    font-weight: bold;
+    border 2px solid green;
+    padding-left: 40px 
+    transition: all 1s;
+}
+div 
+{
+    background-color: #B5FD03;
+    height: 300px;
+}
