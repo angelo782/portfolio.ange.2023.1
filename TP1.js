@@ -83,7 +83,20 @@ function parite()
     else
     { 
     alert("le nombre est impair")
-    t3.value="le nombre esr impair"
+    t3.value="le nombre est impair"
 }
+}
+function swap()
+{
+    var v3 = "";
+    a = document.getElementById("t1").value;
+    b = document.getElementById("t2").value;
+    v3=a;
+    a=b;
+    b=v3;
+
+    t1.value = a;
+    t2.value = b;
+
 }
 
