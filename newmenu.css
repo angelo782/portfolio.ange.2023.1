@@ -1,0 +1,153 @@
+
+body{
+    font-family: Verdana, calibri, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+nav> ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav li{
+    list-style-type: none;
+}
+nav>ul >li{
+    float: left;
+}
+.submenu{
+    display: none;
+}
+nav input[type=checkbox]{
+    display: none;
+}
+.menu-mobile{
+    display: none;
+}
+nav{
+    width: 100%;
+    background-color: #424558;
+}
+nav >ul>li{
+    float: left;
+    position: relative;
+}
+nav> ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+nav >ul > li >a {
+    padding: 20px 30px;
+    color: #fff;
+}
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 100000;
+}
+.submenu li{
+    border-bottom: 1px solid #ccc;
+}
+.submenu li a {
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 270px;
+}
+.menu-html:hover{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228,77,38,0,15);
+}
+.menu-css:hover{
+    border-top: 5px solid #0070bb;
+    background-color: RGBa(000,112,192,0,15);
+}
+.menu-js:hover{
+    border-top: 5px solid #f1dc4f;
+    background-color: RGBa(241,211,79,0,15);
+}
+.menu-contact:hover{
+    border-top: 5px solid #BBB ; 
+    background-color: RGBa(220,220,220,0,15);
+}
+nav>ul> li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+.menu-html .submenu{
+    background-color: RGB(230,100,140);
+}
+.menu-css .submenu{
+    background-color: RGB(000,160,240);
+}
+.menu-js .submenu{
+    background-color: RGB(251,216,99);
+}
+.submenu li:hover a {
+    color: #EEE;
+    font-weight: bold;
+}
+.menu-html .submenu li:hover{
+    background-color: RGB(210,77,60);
+}
+.menu-css .submenu li:hover{
+    background-color: RGB(000,115,200);
+}
+.menu-js .submenu li:hover{
+    background-color:RGB(200,165,75)
+}
+.menu-mobile{
+    display: none;
+}
+nav input[type=checkbox]{
+    display: none;
+}
+nav input[type=checkbox]:checked ~ ul{
+    display: block;
+}
+@media screen and (max-width:680px) {
+  .menu-mobile{
+    display: block;
+    color: #fff;
+    background-color: RGBa(29,197,151,0.97);
+    text-align: center;
+    padding: 12px 0;
+  }
+nav ul{
+    display: none;
+  }    
+
+    nav ul li, nav ul li a {
+        width: 100%;
+        text-align: center;
+    }
+    nav ul li a,nav ul li:hover a{
+        padding: 10px 0px 10px 0px;
+    }
+    nav li:hover .submenu{
+        display: block;
+        position: static;
+    }
+
+   } 
+   .bloc{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.bloc video{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    z-index: -100;
+    transform: translate(-50%,-50%);
+}
