@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="facture.css">
+	<script src="facture.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Facture</h1>
+		<h2>MRG Corp</h2>
+		<div class="dh1">
+		<li> 1 place de la premiere place</li>
+		</div>
+		<div class="dh2">
+			<input type="date" name="" placeholder="date">
+			<input type="text" name="" placeholder="numero de facture">
+		</div>
+	</header>
+	<section>
+		<div class="d1">
+			<h3>Expediteur<hr></h3>
+			<li><input type="text" name="" placeholder="Nom"></li>
+			<li><input type="text" name="" placeholder="Nom de la societe"></li>
+			<li><input type="text" name="" placeholder="Adresse postale"></li>
+			<li><input type="text" name="" placeholder="Telephone"></li>
+			<li><input type="text" name="" placeholder="Email"></li>
+		</div>
+		<div class="d2">
+			<h3>Destinaire<hr></h3>
+			<li><input type="text" name="" placeholder="Nom"></li>
+			<li><input type="text" name="" placeholder="Nom de la societe"></li>
+			<li><input type="text" name="" placeholder="Adresse postale"></li>
+			<li><input type="text" name="" placeholder="Telephone"></li>
+			<li><input type="text" name="" placeholder="Email"></li>
+		</div>
+		<table>
+			<tr>
+				<th>Description</th>
+				<th>Quantite</th>
+				<th>Prix unitaire</th>
+				<th>Total</th>
+			</tr>
+			<tr>
+				<td><input type="text" name="" class="inp1"></td>
+				<td><input type="number" name="" class="inp1"></td>
+				<td><input type="number" name="" class="inp1"></td>
+				<td><input type="number" name="p1" id="p1" class="inp1" min="0" value="0"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="" class="inp1"></td>
+				<td><input type="number" name="" class="inp1"></td>
+				<td><input type="number" name="" class="inp1"></td>
+				<td><input type="number" name="p2" id="p2" class="inp1" min="0" value="0"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="" class="inp1"></td>
+				<td><input type="number" name="" class="inp1"></td>
+				<td><input type="number" name="" class="inp1"></td>
+				<td><input type="number" name="p3" id="p3" class="inp1" min="0" value="0"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="" class="inp1"></td>
+				<td><input type="number" name="" class="inp1"></td>
+				<td><input type="number" name="" class="inp1"></td>
+				<td><input type="number" name="p4" id="p4" class="inp1" min="0" value="0"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="" class="inp1"></td>
+				<td><input type="number" name="" class="inp1"></td>
+				<td><input type="number" name="" class="inp1"></td>
+				<td><input type="number" name="p5" id="p5" class="inp1" min="0" value="0"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="" class="inp1"></td>
+				<td><input type="number" name="" class="inp1"></td>
+				<td><input type="number" name="" class="inp1"></td>
+				<td><input type="number" name="p6" id="p6" class="inp1" min="0" value="0"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="" class="inp1"></td>
+				<td><input type="number" name="" class="inp1"></td>
+				<td><input type="number" name="" class="inp1"></td>
+				<td><input type="number" name="p7" id="p7" class="inp1" min="0" value="0"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="" class="inp1"></td>
+				<td><input type="number" name="" class="inp1"></td>
+				<td><input type="number" name="" class="inp1"></td>
+				<td><input type="number" name="p8" id="p8" class="inp1" min="0" value="0.00"></td>
+			</tr>
+		</table>
+		<div>
+		remarque, notes et instructions de paiement:
+		</div>
+		<div class="df">
+			<table>
+				<tr>
+					<td class="td1">Sous-total</td>
+					<td class="td1"> <input type="number" name="st" id="st" onblur="sous_total()" value="0"> </td>
+				</tr>
+				<tr>
+					<td class="td1">remise</td>
+					<td class="td1"> prix</td>
+				</tr>
+				<tr>
+					<td class="td1">Sous-total moins remise</td>
+					<td class="td1"> prix</td>
+				</tr>
+				<tr>
+					<td class="td1">Taux d'imposition</td>
+					<td class="td1"> prix</td>
+				</tr>
+				<tr>
+					<td class="td1">Taxe total</td>
+					<td class="td1"> prix</td>
+				</tr>
+				<tr>
+					<td class="td1">Manutention<hr></td>
+					<td class="td1"> prix<hr></td>
+				</tr>
+				<tr>
+					<td class="td1">Solde dÃ»</td>
+					<td class="td1"> prix<hr></td>
+				</tr>
+			</table>
+		</div>
+	</section>
+
+</body>
+</html>
